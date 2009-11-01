@@ -25,8 +25,6 @@
 * @license   http://gnu.org/copyleft/gpl.html GNU GPL v2
 */
 
-if ( function_exists('CreateHomeCalendar') ) return(true);
-
 require_once("AWLUtilities.php");
 require_once("DataUpdate.php");
 

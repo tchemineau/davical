@@ -10,7 +10,7 @@
 * @license   http://gnu.org/copyleft/gpl.html GNU GPL v2
 */
 
-if ( !function_exists('CreateHomeCalendar') ) include('auth-functions.php');
+require_once('auth-functions.php');
 
 class ldapDrivers
 {
